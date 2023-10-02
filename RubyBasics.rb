@@ -11,7 +11,7 @@ end
 arr = Array.new
 
 for i in 1..50
-    i= Player.new i , rand(0..50)
+    i= Player.new i , rand(10..100)
     arr << i  
 end
 
