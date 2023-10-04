@@ -5,12 +5,11 @@ class Player
         @player_name=name
         @player_score=score
     end
- 
 end
 
 arr = Array.new
 
-for i in 1..50
+for i in 1..50 
     i= Player.new "player #{i}" , rand(10..100)
     arr << i  
 end
