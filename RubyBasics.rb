@@ -11,12 +11,12 @@ end
 arr = Array.new
 
 for i in 1..50
-    i= Player.new i , rand(10..100)
+    i= Player.new "player #{i}" , rand(10..100)
     arr << i  
 end
 
 for i in 0..49
-    puts "player name is #{arr[i].player_name} \nplayer score is #{arr[i].player_score}" 
+    puts "ready #{arr[i].player_name} \nscore: #{arr[i].player_score}" 
 end
 
 
